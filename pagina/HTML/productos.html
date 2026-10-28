@@ -6,7 +6,6 @@
     <title>TechUp.com</title>
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
-<body>
 <header>
   <div class="wrap">
     <div class="top">
@@ -18,15 +17,18 @@
       </div>
     </div>
     <div class="hero">
+        <button class="cta" data-go="ordenadores">Inicio</button>
         <button class="cta" data-go="ordenadores">💻Ordenadores</button>
         <button class="cta" data-go="componentes">⚙️Componentes</button>
         <button class="cta" data-go="perifericos">⌨️Periféricos</button>
     </div>
   </div>
 </header>
+<div class="container">
 <aside class="sidebar">
   <!-- Sección Marca -->
   <fieldset class="filter-grupo">
+    <legend class="filter-title">Filter</legend>
     <legend class="filter-title">Marca</legend>
     
     <label class="filter-option">
@@ -43,10 +45,9 @@
       <input type="checkbox" name="marca" value="intel">
       <span>Intel</span>
     </label>
-  </fieldset>
 
   <!-- Sección Categoría -->
-  <fieldset class="filter-grupo">
+ 
     <legend class="filter-title">Categoría</legend>
     
     <label class="filter-opcion">
@@ -63,10 +64,10 @@
       <input type="checkbox" name="categoria" value="ram">
       <span>RAM</span>
     </label>
-  </fieldset>
+ 
 
   <!-- Sección Precio -->
-  <fieldset class="filter-grupo">
+ 
     <legend class="filter-title">Precio</legend>
     <label class="filter-opcion">
       <input type="checkbox" name="precio" value="menor">
@@ -85,15 +86,21 @@
   </fieldset>
 </aside>
 <main class="wrap">
-
   <!-- SECCIÓN 1: Productos -->
  <section class="cards">
 
-
+<div class="card">
+<img src="../IMAGES/logo.webp" >
+<h3>nombre del producto</h3>
+<h2>600€</h2>
+<p>4.8</p>
+<button>Anadir a la cesta</button>
+</div>
  </section>
 
 </main>
-
+</div>
+</body>
 <div id="toast"></div>
 
 <footer>
