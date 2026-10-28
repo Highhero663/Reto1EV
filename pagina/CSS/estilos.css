@@ -1,0 +1,12 @@
+:root{
+  --bg: #f8f9fa;
+  --sf: #ffffff;
+  --tx: #1e2124;
+  --mu: #6c757d;
+  --bd: #e9ecef;
+  --ac: #ff6000;
+  --ac-hover: #e05300;
+  --ac2: #198754;
+  --hot: #dc3545;
+  color-scheme: light;  
+}

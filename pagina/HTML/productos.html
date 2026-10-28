@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechUp.com</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div class="logo" id="logoBtn"><img src="../IMAGES/logo.webp" width="100px" alt="Logo"></div>
+      <div class="topBot">
+        <button>👤 Mi cuenta</button>
+        <button id="cartBtn">🛒 Cesta (<span id="cartCount">0</span>)</button>
+        <button id="themeBtn" aria-pressed="false">🌙 Oscuro</button>
+      </div>
+    </div>
+    <div class="hero">
+        <button class="cta" data-go="ordenadores">💻Ordenadores</button>
+        <button class="cta" data-go="componentes">⚙️Componentes</button>
+        <button class="cta" data-go="perifericos">⌨️Periféricos</button>
+    </div>
+  </div>
+</header>
+<aside class="sidebar">
+  <!-- Sección Marca -->
+  <fieldset class="filter-grupo">
+    <legend class="filter-title">Marca</legend>
+    
+    <label class="filter-option">
+      <input type="checkbox" name="marca" value="nvidia">
+      <span>NVIDIA</span>
+    </label>
+    
+    <label class="filter-option">
+      <input type="checkbox" name="marca" value="amd">
+      <span>AMD</span>
+    </label>
+    
+    <label class="filter-option">
+      <input type="checkbox" name="marca" value="intel">
+      <span>Intel</span>
+    </label>
+  </fieldset>
+
+  <!-- Sección Categoría -->
+  <fieldset class="filter-grupo">
+    <legend class="filter-title">Categoría</legend>
+    
+    <label class="filter-opcion">
+      <input type="checkbox" name="categoria" value="graficas">
+      <span>Gráficas</span>
+    </label>
+    
+    <label class="filter-opcion">
+      <input type="checkbox" name="categoria" value="procesadores">
+      <span>Procesadores</span>
+    </label>
+    
+    <label class="filter-opcion">
+      <input type="checkbox" name="categoria" value="ram">
+      <span>RAM</span>
+    </label>
+  </fieldset>
+
+  <!-- Sección Precio -->
+  <fieldset class="filter-grupo">
+    <legend class="filter-title">Precio</legend>
+    <label class="filter-opcion">
+      <input type="checkbox" name="precio" value="menor">
+      <span> < 200€</span>
+    </label>
+    
+     <label class="filter-opcion">
+      <input type="checkbox" name="precio" value="entre">
+      <span> < 200€-500€</span>
+    </label>
+
+     <label class="filter-opcion">
+      <input type="checkbox" name="precio" value="mayor">
+      <span> > 500€</span>
+    </label>
+  </fieldset>
+</aside>
+<main class="wrap">
+
+  <!-- SECCIÓN 1: Productos -->
+ <section class="cards">
+
+
+ </section>
+
+</main>
+
+<div id="toast"></div>
+
+<footer>
+ techUP · Mockup de la maquetación · Reto 1 DAW
+</footer>
+    
+</body>
+</html>
